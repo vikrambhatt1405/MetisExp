@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mas/17/cdsbhat/MetisExp/adjtocsr.cpp
+string
+-
+fstream
+-
+iostream
+-
+vector
+-
+mpi.h
+-
+
+/opt/mvapich2-1.8-r5423/gcc/include/mpi.h
+mpio.h
+/opt/mvapich2-1.8-r5423/gcc/include/mpio.h
+mpicxx.h
+/opt/mvapich2-1.8-r5423/gcc/include/mpicxx.h
+
+/opt/mvapich2-1.8-r5423/gcc/include/mpicxx.h
+stdio.h
+-
+
+/opt/mvapich2-1.8-r5423/gcc/include/mpio.h
+mpi.h
+/opt/mvapich2-1.8-r5423/gcc/include/mpi.h
+
